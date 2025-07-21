@@ -170,7 +170,7 @@ function language(lang) {
 
     document.getElementById('form').innerHTML = "<h1 class='contentTitle'>Visit Us</h1>" +
       "<p class='text'>Fill out the form to request an exclusive car wash. Our team will carefully review your request and, if approved, you’ll receive a confirmation via email. Services are available Monday to Saturday, with continuous hours from 8:30 AM to 6:30 PM. Bookings are managed in 30-minute slots. For same-day washes, we invite you to contact us directly by phone or WhatsApp. If the request is made by a partner hotel on behalf of a guest, please indicate the hotel name followed by the city in the 'Hotel' field, and provide the hotel's email address instead of the guest’s.</p>"
-      + "<form id='prenotazioneForm' action='https://formsubmit.co/leonkleinvr@gmail.com' method='POST'>"
+      + "<form id='prenotazioneForm' action='https://formsubmit.co/corsoleonardo.enibardolino@gmail.com' method='POST'>"
       + "<input class='input' type='text' name='Name' id='name' placeholder='Name' required>"
       + '<span class="error" id="nameError"></span>'
 
@@ -203,7 +203,7 @@ function language(lang) {
       
       + "<p onclick='checkForm()' id='submit'>Send request</button>"
       + "<input type='hidden' name='_captcha' value='false'>"
-      + "<input type='hidden' name='_next' value='http://localhost/eni/index.html'>"
+      + "<input type='hidden' name='_next' value='https://lacorso.github.io/prenotazioneLavaggio/'>"
       + '<input type="hidden" id="subject" name="_subject" value="New submission!">'
       + "</form>"
 
@@ -219,7 +219,7 @@ function language(lang) {
 
     document.getElementById('form').innerHTML = "<h1 class='contentTitle'>Vieni a trovarci</h1>" +
       "<p class='text'>Compila il modulo per richiedere un lavaggio esclusivo. Il nostro team esaminerà con attenzione la tua richiesta e, se approvata, riceverai una conferma tramite e‑mail. I servizi sono disponibili dal lunedì al sabato, con orario continuato dalle 8:30 alle 18:30. Le prenotazioni sono gestite in fasce di mezz’ora. Per lavaggi in giornata, ti invitiamo a contattarci direttamente via telefono o WhatsApp. Se la richiesta proviene da un albergo convenzionato per conto di un cliente, ti preghiamo di indicare nel campo “Albergo” il nome della struttura seguito dalla città, e di fornire l’e‑mail dell’albergo anziché quella del cliente.</p>"
-      + "<form id='prenotazioneForm' action='https://formsubmit.co/leonkleinvr@gmail.com' method='POST'>"
+      + "<form id='prenotazioneForm' action='https://formsubmit.co/corsoleonardo.enibardolino@gmail.com' method='POST'>"
       + "<input class='input' type='text' name='Nome' id='name' placeholder='Nome' required>"
       + '<span class="error" id="nameError"></span>'
       + "<input class='input' type='text' name='Cognome' id='surname' placeholder='Cognome' required>"
@@ -244,7 +244,7 @@ function language(lang) {
       + '<span class="error" id="privacyError"></span>'
       + "<p onclick='checkForm()' id='submit'>Invia richiesta</p>"
       + "<input type='hidden' name='_captcha' value='false'>"
-      + "<input type='hidden' name='_next' value='http://localhost/eni/index.html'>"
+      + "<input type='hidden' name='_next' value='https://lacorso.github.io/prenotazioneLavaggio/'>"
       + '<input type="hidden" id="subject" name="_subject" value="New submission!">'
       + "</form>"
 
