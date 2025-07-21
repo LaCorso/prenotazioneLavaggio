@@ -94,6 +94,14 @@ function checkForm() {
 
     }
     check = false;
+  } else if (!(isValidDate(document.getElementById("data").value))) {
+    if (eng) {
+      document.getElementById("dateError").innerHTML = "The Date has to be at least tomorrow";
+
+    } else {
+      document.getElementById("dateError").innerHTML = "La data deve essere almeno a partire da domani";
+    }
+    check = false;
   } else {
     document.getElementById("dateError").innerHTML = "";
   }
@@ -279,6 +287,20 @@ window.onload = function () {
   document.getElementById("data").value = domani;
   dataDomani = domani;
 
+}
+
+function isValidDate(inputDateString) {
+  var inputDate = new Date(inputDateString);
+  var today = new Date();
+  inputDate.setHours(0, 0, 0, 0);
+  today.setHours(0, 0, 0, 0);
+
+  var tomorrow = new Date(today);
+  tomorrow.setDate(today.getDate() + 1);
+
+  return inputDate >= tomorrow;
+  
+  
 }
 
 function giornoSettimana(dataStringa) {
